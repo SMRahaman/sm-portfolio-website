@@ -14,10 +14,18 @@ h1 {
   color: orange;
 }
 
-.top-banner {
+section {
+
   display: flex;
+  margin-bottom: 150px;
+  ;
+
+}
+
+.top-banner {
+
   background: url(./images/top-banner.png);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
 
 }
@@ -25,6 +33,7 @@ h1 {
 .header-container {
 
   padding-left: 100px;
+  width: 50%;
 }
 
 .link-button {
@@ -49,4 +58,14 @@ h1 {
 .header-image img {
 
   width: 100%;
+}
+
+.dream-big {
+
+  background-image: url(./images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+
+
+
 }
